@@ -1,29 +1,29 @@
-#para começar os envios
+Deixando bem claro para o analisador Jitter, para testar a aplicação precisa do arquivo .env para achar a base de dados do Mongo db, então por gentileza, entre em contato. Os dados de contato estão no currículo.
 
 ## Screenshots da aplicação
 
-### lista_vazia
+### Lista Vazia
 ![Local](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_vazia.png)
 
-### pedido_criado
+### Pedido Criado
 ![localErro](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/pedido_criado.png)
 
-### lista_com_dados_apos_insercao
+### Lista com dados apos insercao
 ![LocalErroN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_com_dados_apos_insercao.png)
 
-### dois_pedidos_feitos
+### Dois pedidos feitos
 ![LocalSucesso](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/dois_pedidos_feitos.png)
 
-### lista_com_dados_apos_insercao_de_dois_pedidos
+### Lista com dados apos inserção de dois pedidos
 ![LocalSucessoN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_com_dados_apos_insercao_de_dois_pedidos.png)
 
-### busca_por_um_pedido_especifico_sabendo_que_ha_dois_registros
+### Busca por um pedido especifico sabendo que ha dois registros
 ![Remoto](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/busca_por_um_pedido_especifico_sabendo_que_ha_dois_registros.png)
 
-### dado_alterado_com_sucesso
+### Dado alterado comsucesso
 ![RemotoSucessoN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/dado_alterado_com_sucesso.png)
 
-### excluido_com_sucesso
+### Excluido com sucesso
 ![RemotoSucesso](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/excluido_com_sucesso.png)
 
 
