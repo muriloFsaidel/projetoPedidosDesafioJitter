@@ -32,4 +32,4 @@
 - Node.js
 - Javascript
 - Express
-- PRISMA
+- Prisma
