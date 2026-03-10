@@ -74,6 +74,42 @@ app.get('/order/:numeroPedido', async (request, response) => {
     }
 });
 
+// mapeando a rota /order/valordonumerodopedido do tipo put para excluir aquele pedido por numeroPedido e inserir o pedido atualizado no servidor local na porta 3000
+app.put('/order/:numeroPedido', async (request, response) => {
+    //convertendo o parâmetro em String
+    const orderId = request.params.numeroPedido.toString();
+    try {
+        //mapeando os dados recebidos da request 
+        const { numeroPedido, valorTotal, dataCriacao, items } = request.body;
+
+        const orderAtualizado = await prisma.order.update({
+            where: { orderId },
+            data: {
+                //mapeando os dados recebidos da request para atualizar no banco de dados 
+                orderId: numeroPedido,
+                value: valorTotal,
+                creationDate: new Date(dataCriacao),
+                items: {
+                    set: items.map(produto => ({
+                        productId: produto.idItem,
+                        quantity: produto.quantidadeItem,
+                        price: produto.valorItem
+                    }))
+                },
+                version: 0
+            }
+        });
+        //lança a resposta de que foi atualizado
+        return response.status(204).send(orderAtualizado);
+
+    } catch (error) {
+        //lança a resposta como não encontrado
+        return response.status(404).send({ mensagem: "número do pedido não foi encontrado para realizar a atualização!!"});
+    }
+});
+
+
+
 
 //Configurando o servidor node.js express para 'ouvir' requisições na porta de serviços 3000, informando que está funcionando
 app.listen(3000, () => {
