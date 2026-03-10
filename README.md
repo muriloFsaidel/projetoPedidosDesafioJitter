@@ -12,7 +12,7 @@
 ![LocalErroN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_com_dados_apos_insercao.png)
 
 ### dois_pedidos_feitos
-![LocalSucesso](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJdois_pedidos_feitos.png)
+![LocalSucesso](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/dois_pedidos_feitos.png)
 
 ### lista_com_dados_apos_insercao_de_dois_pedidos
 ![LocalSucessoN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_com_dados_apos_insercao_de_dois_pedidos.png)
