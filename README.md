@@ -8,7 +8,7 @@ Deixando bem claro para o analisador Jitter, para testar a aplicação precisa d
 ### Pedido Criado
 ![localErro](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/pedido_criado.png)
 
-### Lista com dados apos insercao
+### Lista com dados apos inserção
 ![LocalErroN8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/PPDJ/lista_com_dados_apos_insercao.png)
 
 ### Dois pedidos feitos
