@@ -110,6 +110,27 @@ app.put('/order/:numeroPedido', async (request, response) => {
 
 
 
+// mapeando a rota /order/valordonumerodopedido do tipo delete para excluir aquele pedido por numeroPedido no servidor local na porta 3000
+app.delete('/order/:numeroPedido', async (request, response) => {
+    //convertendo o parâmetro em String
+    let orderId = request.params.numeroPedido.toString();
+    
+    try {
+        //executando operação de exclusão no banco de dados mongo db na tabela order
+        const pedidoExcluido = await prisma.order.delete({
+            where: { orderId }
+        });
+        //lança a resposta de que o elemento foi removido com sucesso
+        return response.status(200).send({ mensagem: "O objeto com número de pedido: " + orderId + " foi removido com sucesso" });
+    } catch (error) {
+        //lança resposta de erro caso o id não exista
+        return response.status(404).send({ mensagem: "número do pedido não foi encontrado para realizar a exclusão!!!!" });
+
+    }
+});
+
+
+
 
 //Configurando o servidor node.js express para 'ouvir' requisições na porta de serviços 3000, informando que está funcionando
 app.listen(3000, () => {
