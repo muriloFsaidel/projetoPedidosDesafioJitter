@@ -1,4 +1,4 @@
-Deixando bem claro para o analisador Jitter, para testar a aplicação precisa do arquivo .env para achar a base de dados do Mongo db, então por gentileza, os dados de contato estão no currículo entre em contato se for preciso. E a respeito de horário os commits e as imagens provam que fiz tudo até a data limite.
+Deixando bem claro para o analisador Jitter, para testar a aplicação precisa do arquivo .env para achar a base de dados do Mongo db, então por gentileza, os dados de contato estão no currículo entre em contato ou procure pelo meu linkedIn se for preciso. E a respeito de horário os commits e as imagens provam que fiz tudo até a data limite.
 
 ## Screenshots da aplicação
 
