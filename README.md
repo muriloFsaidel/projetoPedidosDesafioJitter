@@ -63,7 +63,8 @@
 - Navegador
 
 # Explicação Geral	
-  - [Explicação Geral](https://www.youtube.com/watch?v=)
+  - [Explicação Geral](https://www.youtube.com/watch?v=yxs8e6ACeBU)
+  - [Explicação Geral parte 2](https://www.youtube.com/watch?v=qv33nkHbvaw)
 
 # Autor
 
