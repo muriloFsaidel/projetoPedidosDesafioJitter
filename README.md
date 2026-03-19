@@ -1,10 +1,9 @@
 # Sobre o projeto
 
-![GitHub Created At](https://img.shields.io/github/created-at/muriloFsaidel/szcp-fundo-magico)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/muriloFsaidel/szcp-fundo-magico)
-![GitHub last commit](https://img.shields.io/github/last-commit/muriloFsaidel/szcp-fundo-magico)
-![GitHub language count](https://img.shields.io/github/languages/count/muriloFsaidel/szcp-fundo-magico)
-
+![GitHub Created At](https://img.shields.io/github/created-at/muriloFsaidel/projetoPedidosDesafioJitter)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/muriloFsaidel/projetoPedidosDesafioJitter)
+![GitHub last commit](https://img.shields.io/github/last-commit/muriloFsaidel/projetoPedidosDesafioJitter)
+![GitHub language count](https://img.shields.io/github/languages/count/muriloFsaidel/projetoPedidosDesafioJitter)
 
 ## Desafio Node.js com Javascript Jitter
 
@@ -14,11 +13,12 @@
    <br/>
    <p>
       Valendo destacar, que não havia feito um projeto node.js até então, após pesquisas e busca de conteúdo, foi possível chegar ao resultado final, agradecendo as fontes de pesquisa.
+     Destacando que no vídeo no fim da página, eu explico o funcionamento da aplicação e comandos utilizados para criar o projeto, instalar dependências e enviar o schema local para o Mongo DB.
    </p>
    
   ## Conceitos
   
- - Estrutura Node e Javascript
+ - Estrutura Node.js e Javascript
  - Elementos, objetos, métodos, funções normais, funções assíncronas, estrutura condicional, tratamento de exeções com try catch, eventos, mapeamento de requisições para API, variáveis (let,var e const), dependências, instâncias.
  - Manipulação de arquivos de configuração, modelagem do banco de dados, definição de constante de ambiente.
  - Criação de cluster, banco de dados e manipulação de documentos via plataforma Mongo DB.
