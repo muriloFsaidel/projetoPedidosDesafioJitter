@@ -61,17 +61,16 @@ app.get('/order/list', async (request, response) => {
 // mapeando a rota /order/valordonumerodopedido do tipo get para devolver os dados daquele pedido por numeroPedido  no servidor local na porta 3000
 app.get('/order/:numeroPedido', async (request, response) => {
     const orderId = request.params.numeroPedido.toString();
-    try {
         //executando operação de busca de um pedido no banco de dados mongo db na tabela order
-        const order = await prisma.order.findUnique({
+    const order = await prisma.order.findUnique({
             where: { orderId }
         });
+      if(!(order === null)){
         //lança a resposta com o pedido encontrado
         return response.status(200).send(order);
-    } catch (error) {
+      } 
         //lança a resposta como não encontrado
         return response.status(404).send({ mensagem: "número do pedido não foi encontrado!!!" });
-    }
 });
 
 // mapeando a rota /order/valordonumerodopedido do tipo put para excluir aquele pedido por numeroPedido e inserir o pedido atualizado no servidor local na porta 3000
