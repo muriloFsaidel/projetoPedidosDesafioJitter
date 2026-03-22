@@ -1,6 +1,6 @@
 {
   "name": "desafio-pedidos-produtos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Esse é um projeto de gerenciamento de pedidos e produtos com NODE e Express",
   "main": "server.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "Murilo Fernandes Saidel",
   "license": "ISC",
-  "type": "commom",
+  "type": "commonjs",
   "dependencies": {
     "@prisma/client": "^6.19.2",
     "express": "^5.2.1"
