@@ -48,7 +48,7 @@ app.post('/order', async (request, response) => {
 });
 
 // mapeando a rota /order do tipo get para listar todos os pedidos no servidor local na porta 3000
-app.get('/order/list', async (request, response) => {
+app.get('/order', async (request, response) => {
     //executando operação de buscar todos os registros no banco de dados mongo db na tabela order
     const orders = await prisma.order.findMany();
     //lança a resposta com todos os pedidos
